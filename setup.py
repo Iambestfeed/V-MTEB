@@ -10,7 +10,7 @@ setup(
     long_description=readme,
     long_description_content_type="text/markdown",
     author_email='nguyenducnhan.work@gmail.com',
-    url='https://github.com/haisonle001/V-MTEB/tree/main',
+    url='https://github.com/Iambestfeed/V-MTEB/tree/main',
     packages=find_packages(),
     install_requires=[
         'mteb[beir]',

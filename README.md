@@ -50,7 +50,7 @@ from sentence_transformers import SentenceTransformer
 model_name = "fill-your-model-name"
 
 model = SentenceTransformer(model_name)
-evaluation = MTEB(task_langs=['vi'])
+evaluation = MTEB(task_langs=['vie'])
 results = evaluation.run(model, output_folder=f"vi_results/{model_name}")
 ```
 

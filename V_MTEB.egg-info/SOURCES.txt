@@ -78,6 +78,7 @@ mteb/tasks/Classification/ScalaClassification.py
 mteb/tasks/Classification/SweRecClassification.py
 mteb/tasks/Classification/ToxicConversationsClassification.py
 mteb/tasks/Classification/TweetSentimentExtractionClassification.py
+mteb/tasks/Classification/VMTEBClassification.py
 mteb/tasks/Classification/__init__.py
 mteb/tasks/Clustering/AlloProfClusteringP2P.py
 mteb/tasks/Clustering/AlloProfClusteringS2S.py

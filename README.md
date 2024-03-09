@@ -21,7 +21,7 @@ V-MTEB is devloped based on [MTEB](https://github.com/embeddings-benchmark/mteb)
 
 Clone this repo and install as editable
 ```
-git clone https://github.com/haisonle001/V-MTEB.git
+git clone https://github.com/Iambestfeed/V-MTEB.git
 cd V-MTEB
 pip install -e .
 ```
@@ -50,7 +50,7 @@ from sentence_transformers import SentenceTransformer
 model_name = "fill-your-model-name"
 
 model = SentenceTransformer(model_name)
-evaluation = MTEB(task_langs=['vi'])
+evaluation = MTEB(task_langs=['vie'])
 results = evaluation.run(model, output_folder=f"vi_results/{model_name}")
 ```
 

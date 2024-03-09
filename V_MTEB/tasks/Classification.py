@@ -77,3 +77,19 @@ class VMTEB_ViOCD_Wseg(AbsTaskClassification):
             "n_experiments": 10,
             'samples_per_label': 24,
         }
+
+class VMTEB_ViOCD_Wseg(AbsTaskClassification):
+    @property
+    def description(self):
+        return {
+            'name': 'VMTEB_ViOCD_Wseg',
+            'hf_hub_name': 'another-symato/VMTEB-ViOCD_word_segment',
+            'description': 'Sentiment Analysis of student reviews',
+            'category': 's2s',
+            'type': 'Classification',
+            'eval_splits': ['dev', 'test'],
+            'eval_langs': ['vie'],
+            'main_score': 'accuracy',
+            "n_experiments": 10,
+            'samples_per_label': 32,
+        }

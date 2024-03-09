@@ -21,7 +21,7 @@ V-MTEB is devloped based on [MTEB](https://github.com/embeddings-benchmark/mteb)
 
 Clone this repo and install as editable
 ```
-git clone https://github.com/haisonle001/V-MTEB.git
+git clone https://github.com/Iambestfeed/V-MTEB.git
 cd V-MTEB
 pip install -e .
 ```

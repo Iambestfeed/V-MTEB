@@ -1,6 +1,6 @@
 from ...abstasks import AbsTaskClassification
 
-class Vietnamese_Student_Sentiment(AbsTaskClassification):
+'''class Vietnamese_Student_Sentiment(AbsTaskClassification):
     @property
     def description(self):
         return {
@@ -60,4 +60,4 @@ class Vietnamese_Student_Topic_Wseg(AbsTaskClassification):
             'main_score': 'accuracy',
             "n_experiments": 10,
             'samples_per_label': 32,
-        }
+        }'''
